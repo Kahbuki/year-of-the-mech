@@ -1,0 +1,91 @@
+@charset "utf-8";
+html {
+	background-image: linear-gradient(to right, #94b395, #888aba);
+	text-align: center;
+	font-size: 15px;
+	font-family: Verdana, Arial, serif;
+}
+nav ul {
+  list-style-type: none;
+  padding: auto;
+  overflow: hidden;
+
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	border: 1px solid;
+	border-color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #9e0902;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+ul {
+	list-style:none;
+	font-size: 18px;
+}
+h3 {
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+/*Table*/
+table{
+  margin-left: auto; 
+  margin-right: auto;
+  background-color: #bfbbbb;
+}
+tr:hover {background-color: #9a9c3a}
+tr.subentry:hover {background-color: #858736}
+table, th, td {
+  border: 1px solid;
+  text-align: center-left;
+  border-collapse: collapse;
+  border-color: #8a0a0a;
+}
+tr.serieshead {
+	background-color: #383838;
+	color: #bfbbbb;
+}
+tr.subentry {
+	background-color:#b3b0b5;
+}
+th {
+	background-color: red;
+}
+table.witch {
+	background-image: url(suletta.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+	font-size: 25px;
+}
+table.witch tr{
+	color: white;
+}
+
+.logo {
+	padding-top: 25px;
+	height: auto;
+	Width: 700px;
+}
